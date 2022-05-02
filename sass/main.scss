@@ -15,3 +15,20 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
+
+@import "abstracts/functions";
+@import "abstracts/mixinis";
+@import "abstracts/variables";
+/* Base */
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+/* Pages */
+@import "pages/home";
+/* Components */
+
+/* Layout */
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
