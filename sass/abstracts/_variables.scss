@@ -1,12 +1,17 @@
-$Primary: #eb2f64;
-$Primary-light: #FF3366;
-$Primary-dark: #BA265D;
+// In this project we are going to use css custom props or css variables
+// They are usually declared in the root pseudo element
 
-$Grey-light-1: #faf9f9;
-$Grey-light-2: #f4f2f2;
-$Grey-light-3: #f0eeee;
-$Grey-light-4: #ccc;
+:root {
+  --color-primary: #eb2f64;
+  --color-primary-light: #ff3366;
+  --color-primary-dark: #ba265d;
 
-$Grey-dark-1: #333;
-$Grey-dark-2: #777;
-$Grey-dark-3: #999;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+}
