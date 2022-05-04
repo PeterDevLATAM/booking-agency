@@ -169,3 +169,42 @@
   text-align: center;
   padding: 2.5rem;
 }
+
+////////////////////////////////////////// HOTEL VIEW
+// GALLERY
+.gallery{
+  display: flex;
+  &__item{
+    
+  }
+  &__photo{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+// OVERVIEW
+.overview{
+  display: flex;
+  &__heading{
+  }
+  &__stars{
+    //flex: 1;
+    margin-right: auto;
+    background-color: lightblue;
+  }
+  &__icon-star, &__icon-location{
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: var(--color-primary);
+  }
+  &__location{}
+  &__rating{}
+  &__rating-average{}
+  &__rating-count{}
+}
+
+.btn-inline{
+
+}
